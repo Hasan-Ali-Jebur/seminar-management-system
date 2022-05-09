@@ -1,0 +1,137 @@
+﻿form {
+	margin: auto;
+	outline: none;
+	box-shadow: 0 0 20px rgba(0,0,0,.3);
+	font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #666;
+    width:700px;
+    
+}
+
+.conf {
+    width:850px;
+}
+
+form * {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: block;
+	padding: 20px 30px;	
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	background: rgba(248,248,248,.9);
+	font-size: 25px;
+	font-weight: 300;
+	color: #232323;
+}
+legend {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+	color: #f87e09;
+}
+
+fieldset {
+	display: block;	
+	padding: 25px 30px 5px;
+	border: none;
+	background: rgba(255,255,255,.9);
+}
+
+
+.maindiv {
+    float:left;
+    display:block;
+    width:25%;
+    padding:20px;
+}
+
+
+footer {
+	display: block;
+	padding: 15px 30px 25px;
+	border-top: 1px solid rgba(0,0,0,.1);
+	background: rgba(248,248,248,.9);
+}
+
+footer:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.button {
+	border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    float: right;
+	height: 39px;
+	overflow: hidden;
+	padding: 0 25px;
+	outline: none;
+	font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+    width: 100px;
+    background-color:#a3593d;
+    border-radius:4px;
+}
+    .button:hover {
+    background-color:#232323;
+    }
+
+    .button2 {
+	border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    float: right;
+	height: 39px;
+	overflow: hidden;
+	padding: 0 25px;
+	outline: none;
+	font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+    width: 100px;
+    background-color:#171960;
+    border-radius:4px;
+}
+    .button2:hover {
+    background-color:#232323;
+    }
+
+table {
+                width: 100%;
+                margin-bottom:30px;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th,td {
+                padding: 3px;
+                text-align: center;
+                width:70px;
+                word-break: break-all;
+            }
+
+            tr {
+                background-color: #eee;
+            }
+
+
+            th {
+                background-color: rgba(248, 126, 9, 0.71);
+                color: white;
+                
+            }
+
+
+
+
